@@ -1,0 +1,16 @@
+{
+    "name": "bongle-cli",
+    "version": "0.0.0",
+    "description": "Deploy bongle game bundles to the platform from CI or your terminal.",
+    "type": "module",
+    "bin": {
+        "bongle-cli": "./bin.mjs"
+    },
+    "engines": {
+        "node": ">=18"
+    },
+    "files": [
+        "bin.mjs",
+        "deploy.mjs"
+    ]
+}
